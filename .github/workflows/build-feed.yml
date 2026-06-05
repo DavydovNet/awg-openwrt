@@ -6,5 +6,7 @@ on:
 jobs:
   noop:
     runs-on: ubuntu-latest
+  permissions:
+    contents: write
     steps:
       - run: echo "placeholder"
